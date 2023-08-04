@@ -54,4 +54,6 @@ You can, for instance, embed Google Slides, Google Sheets or Docs by following [
 
 You can simply paste the link from Tableau online project and the report will be automatically embeded. If there are no login credentials set, a login page will show up. Alternativelly, Tableau credentials can be associated with a Game Tuner account, allowing GT to automatically log in user and display Tableau content.
 
+To set up Tableau login credentials, go to your account settings -> Integrations. Ask your Tableau Administrator to provide you `Secret Key` for your Tableau account and fill out this form.
 
+<img src="../assets/Stories/integration_settings.png" alt="dashboard_options" height="300"/>
