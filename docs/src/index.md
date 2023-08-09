@@ -41,7 +41,7 @@ For In App Purchases we also handle currency conversion and to an extent tax and
 
 ## Looking beyond
 
-The product is still in it's early days.
+The product is still in it's early days. We aim to become one stop solution for Data Platform and Analytics.
 
 ## Where to start?
 
@@ -56,4 +56,3 @@ Analysts
 - [Stories](./man/Stories.md)
 - [Eventory](./man/Eventory.md)
 - [Semantic Layer](./man/Semantic%20Layer.md)
-- 
