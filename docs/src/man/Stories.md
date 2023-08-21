@@ -1,4 +1,4 @@
-## Getting Started
+## Getting Started with Stories
 
 Stories are a narrative one-off reports designed to enable an organization to easily share findings and analysis. Once you have a substantial number of published Stories, the tool will act as a knowledge base, allowing easy search and overview of past results.
 
@@ -6,7 +6,7 @@ Stories are a narrative one-off reports designed to enable an organization to ea
 
 Go to sidebar -> `Stories`
 
-<center><img src="../assets/Stories/sidebar.png" alt="sidebar" width="240"/></center>
+<center><img src="../assets/Stories/sidebar.png" alt="sidebar" width="240px"/></center>
 
 ## Stories Page
 
@@ -14,13 +14,13 @@ Here you will see all the Stories your Organization has created for the selected
 
 In the top left corner there's a __New Story__ slot. You cannot archive this one, only clear it. To avoid clutter, there's only one slot for work in progress. 
 
-<center><img src="../assets/Stories/new_story.png" alt="dashboard_options" width="240"/></center>
+<center><img src="../assets/Stories/new_story.png" alt="dashboard_options" width="240px"/></center>
 
 ## New Story
 
 Once you start writing a Story, you will notice the part on the left, named _Story Preview_. Make sure to properly set this before publishing the story, as it will influence how the Story will look like in the [Hub](./Hub.md) or Stories section. This allows an author to convey the most important results at a glance.
 
-<center><img src="../assets/Stories/story_editor.png" alt="dashboard_options" width="900"/></center>
+<center><img src="../assets/Stories/story_editor.png" alt="dashboard_options" width="900px"/></center>
 
 There are three basic types of elements you can use to make the Story. They are listed in the bottom toolbar.
 
@@ -35,11 +35,11 @@ This element allows adding text, doing the basic formatting, hyperlinking, addin
 
 You can create a new chart or import an existing one from one of the dashboards.
 
-<center><img src="../assets/Stories/chart_selector.png" alt="dashboard_options" width="240"/></center>
+<center><img src="../assets/Stories/chart_selector.png" alt="dashboard_options" width="240px"/></center>
 
 A chart is copied as-is when imported. Any subsequent changes on the original dashboard will not influence the content of the Story. Charts the full set of options in the Full Edit Mode, as in a Dashboard. 
 
-!!!Note
+!!! note
     Default behavior for date filter is to have fixed period. Dashboard defaults to sliding period, but you can freely change this.
 
 ##### Embed box
@@ -56,7 +56,7 @@ You can simply paste the link from Tableau online project and the report will be
 
 To set up Tableau login credentials, go to your account settings -> Integrations. Ask your Tableau Administrator to provide you `Secret Key` for your Tableau account and fill out this form.
 
-<center><img src="../assets/Stories/integration_settings.png" alt="dashboard_options" width="600"/></center>
+<center><img src="../assets/Stories/integration_settings.png" alt="dashboard_options" width="600px"/></center>
 
 ## Publishing a Story
 

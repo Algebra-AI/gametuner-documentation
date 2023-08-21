@@ -1,4 +1,4 @@
-## Getting Started
+## Getting Started with Annotations
 
 Annotations is a tool used to track all meta-events.
 
@@ -10,25 +10,25 @@ You see a trend in Retention metric has changed around particular date when ther
 
 Go to sidebar -> `Annotations`
 
-<center><img src="../assets/Annotations/sidebar.png" alt="sidebar" width="240"/></center>
+<center><img src="../assets/Annotations/sidebar.png" alt="sidebar" width="240px"/></center>
 
 ## Annotations Page
 
 Here you will see all the entries in a calender-like format. 
 
-<center><img src="../assets/Annotations/annotations_calendar.png" alt="sidebar" width="900"/></center>
+<center><img src="../assets/Annotations/annotations_calendar.png" alt="sidebar" width="900px"/></center>
 
 ### New Annotation
 
 To add an Annotation, click on a date or click and drag accross multiple days. A popup will open where you can fill in the details.
 
-<center><img src="../assets/Annotations/new_annotation.png" alt="sidebar" width="240"/></center>
+<center><img src="../assets/Annotations/new_annotation.png" alt="sidebar" width="240px"/></center>
 
 Set a `Name`, `Timestamp` or `Period` (you can annotate, for eg, a week), `Short description` and `Detailed description`.
 
 Annotations are shown on any chart that has _Date_ for x-axis.
 
-<center><img src="../assets/Annotations/annotation_chart.png" alt="sidebar" width="400"/></center>
+<center><img src="../assets/Annotations/annotation_chart.png" alt="sidebar" width="400px"/></center>
 
 They are also displayed in a feed-like manner in the [Hub](Hub.md).
 
@@ -36,7 +36,7 @@ They are also displayed in a feed-like manner in the [Hub](Hub.md).
 
 You can pick only tags you want to show (or to exclude) from displaying (only releases, only holidays, etc). You can do this on a dashboard level or in Full Edit Mode for individual charts.
 
-## Best Practices
+## Annotation Best Practices
 
 This is not a release log. Track here only the most important things that can have any chance of influencing KPIs. 
 
@@ -52,5 +52,5 @@ Agree with the team on the set of tags you will be using. Minimal recommended se
 - `offer`
 - `live-event`
 - `bug` remember to note data tracking bugs as well
-- `ab-test`
+- `ab-test`,
 

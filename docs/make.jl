@@ -27,17 +27,21 @@ makedocs(
             "Hub" => "man/Hub.md",
             "Annotations" => "man/Annotations.md"
         ],
+        "Semantic Layer" => Any[
+            "Semantic Layer Overview" => "man/SemanticLayerOverview.md",
+            "User Entity" => "man/UserEntity.md",
+            "Integrated Data Sources" => "man/IntegratedSources.md",
+
+        ],
+        "Data Platform" => Any[
+            "Data Model" => "man/DataModel.md",
+            "DDA (Direct Data Access)" => "man/DDA.md",
+        ],
         "Telemetry" => Any[
             "SDK" => "man/SDK.md",
             "Standard Events" => "man/StandardEvents.md",
             "Eventory" => "man/Eventory.md",
         ],
-        "Data Platform" => Any[
-            "User Entity" => "man/UserEntity.md",
-            "Integrated Data Sources" => "man/IntegratedSources.md",
-            "DDA (Direct Data Access)" => "man/DDA.md",
-        ],
-        "Semantic Layer" => "man/SemanticLayer.md",
 
     ],
     strict = false
@@ -77,7 +81,9 @@ function fix_html(src_path="src", pretty_url=true)
                 s = read(htmlfile, String)
                 for i in eachindex(images)
                     if pretty_url
-                        images[i] = replace(images[i], "./assets" => "./../assets")
+                        images[i] = replace(images[i], "../assets" => "https://raw.githubusercontent.com/Algebra-AI/gametuner-documentation/main/docs/src/assets")
+                        images[i] = replace(images[i], "./assets" => "https://raw.githubusercontent.com/Algebra-AI/gametuner-documentation/main/docs/src/assets")
+                        # images[i] = replace(images[i], "./assets" => "./../assets")
                     end
                     s = replace(s, broken_images[i] => images[i])
                 end

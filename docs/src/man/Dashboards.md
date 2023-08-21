@@ -1,4 +1,4 @@
-## Getting Started
+## Getting Started with Dashboards
 
 Dashboards are designed to enable easy monitoring and quick exploratory analysis. 
 
@@ -6,7 +6,7 @@ Dashboards are designed to enable easy monitoring and quick exploratory analysis
 
 Go to sidebar -> `Dashboard`
 
-<center><img src="../assets/GettingStarted/sidebar.png" alt="sidebar" width="240"/></center>
+<center><img src="../assets/GettingStarted/sidebar.png" alt="sidebar" width="240px"/></center>
 
 ## Dashboards Page
 
@@ -16,11 +16,11 @@ Here you can see all the _public_ dashboards and your own private dashboards. Mo
 
 Always at the first place is `KPI Explorer`. It's permanently there. Unlike (your own) dashboards that you can delete, you can only _clear_ KPI explorer. To reduce clutter we allow only one draft dashboard.
 
-<center><img src="../assets/GettingStarted/dashboard_options.png" alt="dashboard_options" width="240"/></center>
+<center><img src="../assets/GettingStarted/dashboard_options.png" alt="dashboard_options" width="240px"/></center>
 
 KPI Explorer is your starting point for exploring the vast game data. Whether you just want to quickly check some KPI or start building a dashboard you will be returning to check every day, you will start from here.
 
-<center><img src="../assets/GettingStarted/blank_dashboard.png" alt="blank_dashboard" width="900"/></center>
+<center><img src="../assets/GettingStarted/blank_dashboard.png" alt="blank_dashboard" width="900px"/></center>
 
 Click `Add Chart` at the bottom toolbar to show __KPI Picker__. If you have opened blank KPI Explorer the KPI Picker will automatically show.
 
@@ -62,7 +62,7 @@ Currently there are two base types of charts with many variants:
 
 Daily KPIs have both, Cohort and Custom Event KPIs use only Line chart and it's variants.
 
-<center><img src="../assets/GettingStarted/line_chart.png" alt="line_chart" width="400"/>  <img src="../assets/GettingStarted/bar_chart.png" alt="bar_chart" width="400"/></center>
+<center><img src="../assets/GettingStarted/line_chart.png" alt="line_chart" width="400px"/>  <img src="../assets/GettingStarted/bar_chart.png" alt="bar_chart" width="400px"/></center>
 
 Big numbers are called __Highlight Numbers__ and show Total (SUM or AVG) for the selected period for line (on line chart) or segment (on bar chart). The diff shown next to it is the relative difference between total for selected period and total for comparison period. Highlight numbers can be changed to show only the last value of the period, in which case % diff is changed as well and shows relative diff of the last value of the period compared to the last value of comparison period. Finally these can be switched off, in which case only __Color Legend__ remains.
 

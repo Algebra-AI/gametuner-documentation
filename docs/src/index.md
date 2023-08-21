@@ -47,12 +47,12 @@ The product is still in it's early days. We aim to become one stop solution for 
 
 Developers
 
-- [Telemetry Setup](./man/Telemetry%20Setup.md)
+- [Telemetry Setup](./man/TelemetrySetup.md)
 - [Eventory](./man/Eventory.md)
 
 Analysts
 
-- [BI Tool](./man/BI%20Tool.md)
+- [BI Tool](./man/BITool.md)
 - [Stories](./man/Stories.md)
 - [Eventory](./man/Eventory.md)
-- [Semantic Layer](./man/Semantic%20Layer.md)
+- [Semantic Layer](./man/SemanticLayer.md)
